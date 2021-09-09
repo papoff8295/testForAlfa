@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  testforalfa:
+    #    image: papoff/microservice1
+    container_name: testForAlfa
+    build: .
+    ports:
+      - 8082:8082
+    restart: always
