@@ -7,16 +7,13 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import ru.popov.testForAlfa.config.ClientConfig;
 import ru.popov.testForAlfa.model.Currency;
 import ru.popov.testForAlfa.model.Giphy;
-import ru.popov.testForAlfa.model.Rates;
 import ru.popov.testForAlfa.service.FeinService;
 
-import java.lang.reflect.Field;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 @RestController
 public class CurrenciesController {
