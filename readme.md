@@ -23,6 +23,7 @@ USD.**
 Структура проекта:
 
 ![img.png](img.png)
+
 **Краткое описание сервиса:**
 
 Основная логика развернута в классах CurrenciesController, CurrenciesClient, GiphyClient, FeinService.
